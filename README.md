@@ -100,5 +100,3 @@ docker logs -f qwen-122b-serving
 **Troubleshooting Tips:**
 
 * หาก Client (เช่น Cline) เชื่อมต่อไม่ได้ ให้ลองรันคำสั่ง `curl http://<IP>:8000/v1/models` เพื่อเช็คว่าพอร์ตถูกบล็อกด้วย Firewall หรือไม่ และตรวจสอบชื่อ Model ID ที่ระบบกำลังให้บริการอยู่
-
-```
